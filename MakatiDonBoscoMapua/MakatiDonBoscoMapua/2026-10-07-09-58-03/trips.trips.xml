@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-07 10:04:43.871119 by Eclipse SUMO $Id: ptlines2flows.py v1_3_1+0313-ccb31df3eb jakob.erdmann@dlr.de 2019-09-02 13:26:32 +0200 $ v1_27_1+0000-7717f2379d9
+<configuration>
+    <net-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_stops.add.xml"/>
+    <output-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\stopinfos.xml"/>
+    <routes-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\vehroutes.xml"/>
+    <trips-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <types value="bus,tram,subway,light_rail,train,trolleybus,monorail,minibus,share_taxi,ferry,aerialway"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_tram" vClass="tram" speedFactor="1.0"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_minibus" vClass="bus" speedFactor="0.95"/>
+    <vType id="pt_share_taxi" vClass="taxi" speedFactor="0.95"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <trip id="0_bus_30:0" type="pt_bus" depart="15.0" departLane="best" from="760619887" to="188163093">
+        <stop busStop="7081949865" duration="30"/>  <!-- None -->
+        <stop busStop="11968952337" duration="30"/>  <!-- General Tinio Street -->
+    </trip>
+    <trip id="1_light_rail_3:0" type="pt_light_rail" depart="15.0" departLane="best" from="642764189" to="642764189">
+        <stop busStop="5286836714" duration="30"/>  <!-- Magallanes -->
+    </trip>
+    <trip id="2_bus_T226:0" type="pt_bus" depart="17.0" departLane="best" from="738859291" to="738859299#3">
+        <stop busStop="7830710141" duration="30"/>  <!-- League One Southgate Mall -->
+    </trip>
+    <trip id="3_bus_T226:1" type="pt_bus" depart="52.0" departLane="best" from="-738859299#3" to="738859291">
+        <stop busStop="7830710141" duration="30"/>  <!-- League One Southgate Mall -->
+    </trip>
+    <trip id="4_bus_PSAY-BGIO:0" type="pt_bus" depart="119.0" departLane="best" from="758153183" to="632727188">
+    </trip>
+    <trip id="5_bus_PSAY-BGIO:1" type="pt_bus" depart="131.0" departLane="best" from="-715058502" to="777206839#1">
+    </trip>
+    <trip id="6_bus_PSAY-BGIO:2" type="pt_bus" depart="132.0" departLane="best" from="758153183" to="632727188">
+    </trip>
+    <trip id="7_bus_PSAY-BGIO:3" type="pt_bus" depart="133.0" departLane="best" from="-715058502" to="777206839#1">
+    </trip>
+    <trip id="8_bus_BM:0" type="pt_bus" depart="165.0" departLane="best" from="230400740" to="704471783#1">
+        <stop busStop="3267570075" duration="30"/>  <!-- Landmark -->
+        <stop busStop="5080969325" duration="30"/>  <!-- Paseo de Roxas -->
+        <stop busStop="6615867966" duration="30"/>  <!-- Trasierra -->
+    </trip>
+    <trip id="9_light_rail_3:1" type="pt_light_rail" depart="253.0" departLane="best" from="810634532" to="810634532">
+        <stop busStop="7579266936" duration="30"/>  <!-- Magallanes -->
+    </trip>
+    <trip id="10_bus_P28:0" type="pt_bus" depart="303.0" departLane="best" from="230400740" to="700695450">
+        <stop busStop="3267570075" duration="30"/>  <!-- Landmark -->
+    </trip>
+    <trip id="11_bus_BM:1" type="pt_bus" depart="326.0" departLane="best" from="230400740" to="704471783#1">
+        <stop busStop="3267570075" duration="30"/>  <!-- Landmark -->
+        <stop busStop="5080969325" duration="30"/>  <!-- Paseo de Roxas -->
+        <stop busStop="6615867966" duration="30"/>  <!-- Trasierra -->
+    </trip>
+    <trip id="12_bus_Citylink_Bus_Route_(Upper_McKinley_-_San_Lorenzo_Place):0" type="pt_bus" depart="383.0" departLane="best" from="-738859299#3" to="628567776">
+        <stop busStop="5934210470" duration="30"/>  <!-- San Lorenzo Place -->
+    </trip>
+    <trip id="13_bus_Citylink_Bus_Route_(San_Lorenzo_Place_-_Upper_McKinley):0" type="pt_bus" depart="389.0" departLane="best" from="628567776" to="738859299#3">
+        <stop busStop="5934210470" duration="30"/>  <!-- San Lorenzo Place -->
+    </trip>
+    <trip id="14_bus_P35:0" type="pt_bus" depart="406.0" departLane="best" from="230400740" to="714790455#0">
+        <stop busStop="3267570075" duration="30"/>  <!-- Landmark -->
+        <stop busStop="5080969325" duration="30"/>  <!-- Paseo de Roxas -->
+    </trip>
+    <trip id="15_bus_P29:0" type="pt_bus" depart="441.0" departLane="best" from="31659581" to="230400742">
+        <stop busStop="2718542080" duration="30"/>  <!-- Greenbelt 1 -->
+    </trip>
+    <trip id="16_bus_P29:1" type="pt_bus" depart="535.0" departLane="best" from="363410334" to="31659581">
+        <stop busStop="2718542080@9395470" duration="30"/>  <!-- Greenbelt 1 -->
+    </trip>
+</routes>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-07T10:04:39.925523+08:00 by Eclipse SUMO netconvert 1.27.1
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertShips.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <ptline-clean-up value="true"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="11968952337" name="General Tinio Street" lane="238193048#3_0" startPos="13.50" endPos="28.50" friendlyPos="true" lines="30"/>
+    <busStop id="2718542080" name="Greenbelt 1" lane="31659581_0" startPos="32.16" endPos="47.16" friendlyPos="true" lines="P29"/>
+    <busStop id="2718542080@9395470" name="Greenbelt 1" lane="31659581_0" startPos="32.16" endPos="47.16" friendlyPos="true" lines="P29"/>
+    <busStop id="3267570075" name="Landmark" lane="645172763_0" startPos="19.29" endPos="34.29" friendlyPos="true" lines="BM P28 P35"/>
+    <busStop id="5080969325" name="Paseo de Roxas" lane="132684528_0" startPos="98.54" endPos="113.54" friendlyPos="true" lines="BM P35"/>
+    <trainStop id="5286836714" name="Magallanes" lane="642764189_0" startPos="856.70" endPos="1056.70" friendlyPos="true" lines="3">
+        <access lane="1494633262_0" pos="0.00" length="42.65" friendlyPos="1"/>
+        <access lane="561498436#0_0" pos="23.91" length="5.65" friendlyPos="1"/>
+        <access lane="628567764#1_0" pos="18.43" length="42.26" friendlyPos="1"/>
+        <access lane="750626955#2_0" pos="36.26" length="42.45" friendlyPos="1"/>
+        <access lane="799249452#6_0" pos="0.00" length="45.04" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="5934210470" name="San Lorenzo Place" lane="628567776_0" startPos="12.06" endPos="27.06" friendlyPos="true" lines="Citylink Bus Route (Upper McKinley - San Lorenzo Place) Citylink Bus Route (San Lorenzo Place - Upper McKinley)"/>
+    <busStop id="6615867966" name="Trasierra" lane="704471783#1_0" startPos="10.85" endPos="25.85" friendlyPos="true" lines="BM"/>
+    <busStop id="7081949865" lane="238193048#3_0" startPos="28.50" endPos="28.50" friendlyPos="true" lines="30"/>
+    <trainStop id="7579266936" name="Magallanes" lane="810634532_0" startPos="1263.00" endPos="1463.00" friendlyPos="true" lines="3">
+        <access lane="-1076619592#0_0" pos="0.00" length="80.69" friendlyPos="1"/>
+        <access lane="1010341990#3_0" pos="87.94" length="84.48" friendlyPos="1"/>
+        <access lane="671438187#0_0" pos="1.47" length="84.61" friendlyPos="1"/>
+        <access lane="750626955#0_0" pos="859.29" length="47.32" friendlyPos="1"/>
+        <access lane="799249452#8_0" pos="43.52" length="30.25" friendlyPos="1"/>
+    </trainStop>
+    <busStop id="7830710141" name="League One Southgate Mall" lane="738859291_0" startPos="1.31" endPos="26.31" friendlyPos="true" lines="T226"/>
+</additional>

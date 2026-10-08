@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+    <vType id="sedan" accel="2.6" decel="4.5" length="4.5" maxSpeed="13.89" vClass="passenger" color="yellow" />
+    <vType id="suv" accel="2.2" decel="4.0" length="5.0" maxSpeed="13.89" vClass="passenger" color="orange" />
+    <flow id="flow_rand_1" type="suv" begin="0" end="3600" vehsPerHour="40" from="703998736#1" to="755483232" />
+    <flow id="flow_rand_2" type="suv" begin="0" end="3600" vehsPerHour="52" from="30145509#3" to="755483232" />
+    <flow id="flow_rand_3" type="suv" begin="0" end="3600" vehsPerHour="53" from="759175360" to="755483232" />
+    <flow id="flow_rand_4" type="sedan" begin="0" end="3600" vehsPerHour="44" from="225366369" to="755483232" />
+    <flow id="flow_rand_5" type="sedan" begin="0" end="3600" vehsPerHour="34" from="22696903#2" to="755483232" />
+    <flow id="flow_rand_6" type="sedan" begin="0" end="3600" vehsPerHour="72" from="30763991#1" to="755483232" />
+    <flow id="flow_rand_7" type="sedan" begin="0" end="3600" vehsPerHour="46" from="-22694465#4" to="755483232" />
+    <flow id="flow_rand_8" type="sedan" begin="0" end="3600" vehsPerHour="46" from="-14345742#1" to="755483232" />
+    <flow id="flow_rand_9" type="sedan" begin="0" end="3600" vehsPerHour="72" from="712675947#1" to="755483232" />
+    <flow id="flow_rand_10" type="sedan" begin="0" end="3600" vehsPerHour="32" from="-824674208#0" to="755483232" />
+    <flow id="flow_rand_11" type="suv" begin="0" end="3600" vehsPerHour="72" from="701096366#0" to="755483232" />
+    <flow id="flow_rand_12" type="suv" begin="0" end="3600" vehsPerHour="64" from="-24531288#1" to="755483232" />
+    <flow id="flow_rand_13" type="suv" begin="0" end="3600" vehsPerHour="31" from="225366321#1" to="755483232" />
+    <flow id="flow_rand_14" type="sedan" begin="0" end="3600" vehsPerHour="32" from="4263589#0" to="755483232" />
+    <flow id="flow_rand_15" type="sedan" begin="0" end="3600" vehsPerHour="30" from="22729201#0" to="755483232" />
+    <flow id="flow_rand_16" type="suv" begin="0" end="3600" vehsPerHour="78" from="758153185#1" to="755483232" />
+    <flow id="flow_rand_17" type="sedan" begin="0" end="3600" vehsPerHour="74" from="-1527421438" to="755483232" />
+    <flow id="flow_rand_18" type="suv" begin="0" end="3600" vehsPerHour="75" from="22696897#0" to="755483232" />
+    <flow id="flow_rand_19" type="sedan" begin="0" end="3600" vehsPerHour="34" from="-759404376#1" to="755483232" />
+    <flow id="flow_rand_20" type="sedan" begin="0" end="3600" vehsPerHour="77" from="707121974#2" to="755483232" />
+</routes>

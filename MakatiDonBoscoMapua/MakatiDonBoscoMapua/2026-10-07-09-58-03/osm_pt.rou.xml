@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-07 10:04:45.134562 by Eclipse SUMO osmWebWizard.py v1_27_1+0000-7717f2379d9
+<configuration>
+    <net-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_stops.add.xml"/>
+    <output-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\stopinfos.xml"/>
+    <routes-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\vehroutes.xml"/>
+    <trips-file value="C:\Users\keana\Sumo\2026-10-07-09-58-03\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <types value="bus,tram,subway,light_rail,train,trolleybus,monorail,minibus,share_taxi,ferry,aerialway"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_30:0" edges="760619887 123494428 715058504#0 -760603945 -1015988498 -1015988499 -760825069#1 -123419555#2 -123419555#1 -1300675673#5 -1300675673#2 -1300675673#1 -1300675673#0 -1300675674 -1300675675 -116671021 85104293 760825065 760825064#0 760825064#1 230403173#1 671028143 760825063 671028145 759411690 1300277182 761292519 761297438 762325810#0 762325810#1 762325810#2 238193048#0 238193048#1 238193048#2 238193048#3 238193048#4 238193048#5 1276435331#0 1276435331#1 1276435331#2 1276435331#3 1276435331#4 1276435331#5 761776063#0 761776063#1 761776062#0 761776062#1 761776062#2 753169072 405848432 753169071 761811317 405848433 761811310 677190275 188163093" >
+        <stop busStop="7081949865" duration="20" until="318.0"/> <!-- None -->
+        <stop busStop="11968952337" duration="20" until="349.0"/> <!-- General Tinio Street -->
+    </route>
+    <route id="pt_bus_BM:0" color="orange" edges="230400740 624604453 624604453-AddedOffRampEdge 28572602 624604451 30763991#0 30763991#1 762046245#0 762046245#1 702465341#0 762046239#1 547667543#0 547667543#2 186583684 186583685 -22648376#1 22648395#0 22648395#1 22648395#2 22648395#3 22648395#4 22648395#5 22648395#6 -738613272 4418466#1 738574701 705249102 645172764 645172763 705249101#0 374114346#0 374114346#1 374114346#2 374114346#3 705249098 654885033 738552200 27662339#0 27662339#1 -205382763#6 -205382763#2 -205382763#1 -205382763#0 -702465337#1 114695854#1 108060096#1 132684524#0 676674453 132684529#0 1076411947#1 4089442#0 4089442#1 132684531 126978646 132684528 701644607#1 701096365#0 703430058 703430057 703430056#1 703998737#0 703998737#1 179384093#0 179384093#1 703998735#0 703998732#1 704565014#0 704341118#1 704341116#0 702461322#1 702461325#0 702461325#1 702461321#0 654885090 658325611#0 658325611#1 704471783#1" >
+        <stop busStop="3267570075" duration="20" until="319.0"/> <!-- Landmark -->
+        <stop busStop="5080969325" duration="20" until="608.0"/> <!-- Paseo de Roxas -->
+        <stop busStop="6615867966" duration="20" until="783.0"/> <!-- Trasierra -->
+    </route>
+    <route id="pt_bus_BM:1" color="orange" edges="230400740 624604453 624604453-AddedOffRampEdge 28572602 624604451 30763991#0 30763991#1 762046245#0 762046245#1 702465341#0 762046239#1 547667543#0 547667543#2 186583684 186583685 -22648376#1 22648395#0 22648395#1 22648395#2 22648395#3 22648395#4 22648395#5 22648395#6 -738613272 4418466#1 738574701 705249102 645172764 645172763 705249101#0 374114346#0 374114346#1 374114346#2 374114346#3 705249098 654885033 738552200 27662339#0 27662339#1 -205382763#6 -205382763#2 -205382763#1 -205382763#0 -702465337#1 114695854#1 108060096#1 132684524#0 676674453 132684529#0 1076411947#1 4089442#0 4089442#1 132684531 126978646 132684528 701644607#1 701096365#0 703430058 703430057 703430056#1 703998737#0 703998737#1 179384093#0 179384093#1 703998735#0 703998732#1 704565014#0 704341118#1 704341116#0 702461322#1 702461325#0 702461325#1 702461321#0 654885090 658325611#0 658325611#1 704471783#1" >
+        <stop busStop="3267570075" duration="20" until="313.0"/> <!-- Landmark -->
+        <stop busStop="5080969325" duration="20" until="618.0"/> <!-- Paseo de Roxas -->
+        <stop busStop="6615867966" duration="20" until="834.0"/> <!-- Trasierra -->
+    </route>
+    <route id="pt_bus_Citylink_Bus_Route_(San_Lorenzo_Place_-_Upper_McKinley):0" edges="628567776 628567769 692702930 692702929#1 -624604448 -738819164#1 -738819164#0 738819165 22770629#0 22770629#1 22770629#2 22770629#3 632727210#0 632727210#1 632727210#2 738859298#0 738859298#1 738859298#3 738859298#5 738859298#6 738859299#0 738859299#1 738859299#2 738859299#3" >
+        <stop busStop="5934210470" duration="20" until="37.0"/> <!-- San Lorenzo Place -->
+    </route>
+    <route id="pt_bus_Citylink_Bus_Route_(Upper_McKinley_-_San_Lorenzo_Place):0" edges="-738859299#3 -738859299#2 -738859299#1 -738859299#0 -738859298#6 -738859298#5 -738859298#3 -738859298#1 -738859298#0 839153775 738819163 824674207 547669744 -738819165 738819164#0 738819164#1 624604448 628567765#2 628567765#3 628567776" >
+        <stop busStop="5934210470" duration="20" until="124.0"/> <!-- San Lorenzo Place -->
+    </route>
+    <route id="pt_bus_P28:0" color="yellow" edges="230400740 624604453 624604453-AddedOffRampEdge 28572602 624604451 30763991#0 30763991#1 762046245#0 762046245#1 702465341#0 762046239#1 547667543#0 547667543#2 186583684 186583685 -22648376#1 22648395#0 22648395#1 22648395#2 22648395#3 22648395#4 22648395#5 22648395#6 -738613272 4418466#1 738574701 705249102 645172764 645172763 705249101#0 1296741768 229922382#1 229922382#2 229922382#3 700695450" >
+        <stop busStop="3267570075" duration="20" until="375.0"/> <!-- Landmark -->
+    </route>
+    <route id="pt_bus_P29:0" color="red" edges="31659581 132684529#0 1076411947#1 4089442#0 4089442#1 132684531 573621956#1 573621956#2 573621956#3 573621956#4 573621956#5 573621956#6 573621955#0 573621955#1 703998741#0 703998741#1 703430056#1 703998737#0 703998737#1 179384093#0 179384093#1 703998735#0 703998732#1 704565014#0 703998736#1 704556778#0 711293098#0 711293098#1 220840489#0 220840489#1 1341723774 711144689#0 45321137#0 45321137#1 711230098 4350917-AddedOnRampEdge 4350917 836401380 230400742" >
+        <stop busStop="2718542080" duration="20" until="42.0"/> <!-- Greenbelt 1 -->
+    </route>
+    <route id="pt_bus_P29:1" color="red" edges="363410334 753169065 753169065-AddedOffRampEdge 753169054 753169041 850329037 753169053#0 753169053#1 1077799790-AddedOnRampEdge 1077799790 709834498 624604451 30763991#0 30763991#1 762046245#0 762046245#1 702465341#0 762046239#1 547667543#0 547667543#2 186583684 186583685 -22648376#1 22648395#0 22648395#1 22648395#2 22648395#3 22648395#4 -840838450#0 114695854#1 108060096#1 31659581" >
+        <stop busStop="2718542080@9395470" duration="20" until="366.0"/> <!-- Greenbelt 1 -->
+    </route>
+    <route id="pt_bus_P35:0" color="yellow" edges="230400740 624604453 624604453-AddedOffRampEdge 28572602 624604451 30763991#0 30763991#1 762046245#0 762046245#1 702465341#0 762046239#1 547667543#0 547667543#2 186583684 186583685 -22648376#1 22648395#0 22648395#1 22648395#2 22648395#3 22648395#4 22648395#5 22648395#6 -738613272 4418466#1 738574701 705249102 645172764 645172763 705249101#0 374114346#0 374114346#1 374114346#2 374114346#3 705249098 654885033 738552200 27662339#0 27662339#1 -205382763#6 -205382763#2 -205382763#1 -205382763#0 -702465337#1 114695854#1 108060096#1 132684524#0 676674453 132684529#0 1076411947#1 4089442#0 4089442#1 132684531 126978646 132684528 701644607#1 701096365#0 573621954 704887559#0 704887559#1 701096366#0 701096366#1 53054666 691378181#0 81799763 707358761 707358772 54145953 54145957#0 54145957#1 699815560 4086406#0 755487263#1 50329792 755487262#0 714790455#0" >
+        <stop busStop="3267570075" duration="20" until="327.0"/> <!-- Landmark -->
+        <stop busStop="5080969325" duration="20" until="593.0"/> <!-- Paseo de Roxas -->
+    </route>
+    <route id="pt_bus_PSAY-BGIO:0" edges="758153183 777206842 777206842-AddedOffRampEdge 706103554 1327069978 1176763755 758153184#0 758153184#1 758153185#0 758153185#1 758153185#2 758153185#3 758153186 760825063 671028145 759411690 1300277182 761292519 761297438 762325810#0 762325810#1 762325810#2 238193048#0 238193048#1 238193048#2 238193048#3 238193048#4 238193048#5 1276435331#0 1276435331#1 1276435331#2 1276435331#3 1276435331#4 1276435331#5 761776063#0 761776063#1 761776062#0 761776062#1 761776062#2 753169072 405848432 753169071 761811317 405848433 761811311 761814395 22770806 761814396 761811308 761811312 761980619 761980615 761980616#0 761980616#1 230520298#0 230520298#1 230520298#2 230520298#3 230520298#4 230520298#5 762688381 1496870784 238967422#1 238967422#2 238967422#3 632727188" >
+    </route>
+    <route id="pt_bus_PSAY-BGIO:1" edges="-715058502 -715058500#1 -760603945 -1015988498 -1015988499 -760825069#1 -123419555#2 -123419555#1 -1300675673#5 -1300675673#2 -1300675673#1 -1300675673#0 -1300675674 -1300675675 -116671021 85104293 55060387 846647541 55060376 1077804243 1077804241 1077804240 575716484 758153180#0-AddedOnRampEdge 758153180#0 758153180#1 836401389 777206839#0 777206839#1" >
+    </route>
+    <route id="pt_bus_PSAY-BGIO:2" edges="758153183 777206842 777206842-AddedOffRampEdge 706103554 1327069978 1176763755 758153184#0 758153184#1 758153185#0 758153185#1 758153185#2 758153185#3 758153186 760825063 671028145 759411690 1300277182 761292519 761297438 762325810#0 762325810#1 762325810#2 238193048#0 238193048#1 238193048#2 238193048#3 238193048#4 238193048#5 1276435331#0 1276435331#1 1276435331#2 1276435331#3 1276435331#4 1276435331#5 761776063#0 761776063#1 761776062#0 761776062#1 761776062#2 753169072 405848432 753169071 761811317 405848433 761811311 761814395 22770806 761814396 761811308 761811312 761980619 761980615 761980616#0 761980616#1 230520298#0 230520298#1 230520298#2 230520298#3 230520298#4 230520298#5 762688381 1496870784 238967422#1 238967422#2 238967422#3 632727188" >
+    </route>
+    <route id="pt_bus_PSAY-BGIO:3" edges="-715058502 -715058500#1 -760603945 -1015988498 -1015988499 -760825069#1 -123419555#2 -123419555#1 -1300675673#5 -1300675673#2 -1300675673#1 -1300675673#0 -1300675674 -1300675675 -116671021 85104293 55060387 846647541 55060376 1077804243 1077804241 1077804240 575716484 758153180#0-AddedOnRampEdge 758153180#0 758153180#1 836401389 777206839#0 777206839#1" >
+    </route>
+    <route id="pt_bus_T226:0" color="yellow" edges="738859291 738859289#0 824674207 547669744 22770629#0 22770629#1 22770629#2 22770629#3 632727210#0 632727210#1 632727210#2 738859298#0 738859298#1 738859298#3 738859298#5 738859298#6 738859299#0 738859299#1 738859299#2 738859299#3" >
+        <stop busStop="7830710141" duration="20" until="38.0"/> <!-- League One Southgate Mall -->
+    </route>
+    <route id="pt_bus_T226:1" color="yellow" edges="-738859299#3 -738859299#2 -738859299#1 -738859299#0 -738859298#6 -738859298#5 -738859298#3 -738859298#1 -738859298#0 839153774#0 839153774#1 738859291" >
+        <stop busStop="7830710141" duration="20" until="101.0"/> <!-- League One Southgate Mall -->
+    </route>
+    <route id="pt_light_rail_3:0" color="255,204,0" edges="642764189" >
+        <stop busStop="5286836714" duration="20" until="98.0"/> <!-- Magallanes -->
+    </route>
+    <route id="pt_light_rail_3:1" color="255,204,0" edges="810634532" >
+        <stop busStop="7579266936" duration="20" until="123.0"/> <!-- Magallanes -->
+    </route>
+    <flow id="pt_bus_30:0" type="pt_bus" route="pt_bus_30:0" begin="15.0" end="3615.0" period="600" line="30:0" >
+        <param key="name" value="Route 30: Balibago–PITX"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_bus_P28:0" type="pt_bus" route="pt_bus_P28:0" begin="303.0" end="3903.0" period="600" line="P28:0" >
+        <param key="name" value="PITX–Circuit Makati P2P (inbound)"/>
+        <param key="completeness" value="0.33"/>
+    </flow>
+    <flow id="pt_bus_BM:1" type="pt_bus" route="pt_bus_BM:1" begin="326.0" end="3926.0" period="600" line="BM:1" >
+        <param key="name" value="Bacoor (SoMo)–Makati CBD P2P (inbound)"/>
+        <param key="completeness" value="0.60"/>
+    </flow>
+    <flow id="pt_bus_Citylink_Bus_Route_(Upper_McKinley_-_San_Lorenzo_Place):0" type="pt_bus" route="pt_bus_Citylink_Bus_Route_(Upper_McKinley_-_San_Lorenzo_Place):0" begin="383.0" end="3983.0" period="600" line="Citylink_Bus_Route_(Upper_McKinley_-_San_Lorenzo_Place):0" >
+        <param key="name" value="Citylink Bus Route (Upper McKinley - San Lorenzo Place)"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_Citylink_Bus_Route_(San_Lorenzo_Place_-_Upper_McKinley):0" type="pt_bus" route="pt_bus_Citylink_Bus_Route_(San_Lorenzo_Place_-_Upper_McKinley):0" begin="389.0" end="3989.0" period="600" line="Citylink_Bus_Route_(San_Lorenzo_Place_-_Upper_McKinley):0" >
+        <param key="name" value="Citylink Bus Route (San Lorenzo Place - Upper McKinley)"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_P35:0" type="pt_bus" route="pt_bus_P35:0" begin="406.0" end="4006.0" period="600" line="P35:0" >
+        <param key="name" value="Imus–Makati P2P (inbound)"/>
+        <param key="completeness" value="0.29"/>
+    </flow>
+    <flow id="pt_bus_P29:0" type="pt_bus" route="pt_bus_P29:0" begin="441.0" end="4041.0" period="600" line="P29:0" >
+        <param key="name" value="Greenbelt 1–Las Piñas P2P (outbound)"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_bus_P29:1" type="pt_bus" route="pt_bus_P29:1" begin="535.0" end="4135.0" period="600" line="P29:1" >
+        <param key="name" value="Greenbelt 1–Las Piñas P2P (inbound)"/>
+        <param key="completeness" value="0.50"/>
+    </flow>
+    <flow id="pt_light_rail_3:0" type="pt_light_rail" route="pt_light_rail_3:0" begin="15.0" end="3615.0" period="240" line="3:0" >
+        <param key="name" value="MRT Line 3: North Avenue → Taft Avenue"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_T226:0" type="pt_bus" route="pt_bus_T226:0" begin="17.0" end="3617.0" period="600" line="T226:0" >
+        <param key="name" value="FTI–Kayamanan C"/>
+        <param key="completeness" value="0.25"/>
+    </flow>
+    <flow id="pt_bus_T226:1" type="pt_bus" route="pt_bus_T226:1" begin="52.0" end="3652.0" period="600" line="T226:1" >
+        <param key="name" value="FTI–Kayamanan C"/>
+        <param key="completeness" value="0.20"/>
+    </flow>
+    <flow id="pt_bus_PSAY-BGIO:0" type="pt_bus" route="pt_bus_PSAY-BGIO:0" begin="119.0" end="3719.0" period="600" line="PSAY-BGIO:0" >
+        <param key="name" value="Pasay City–Baguio City via TPLEX (inbound)"/>
+        <param key="completeness" value="0.00"/>
+    </flow>
+    <flow id="pt_bus_PSAY-BGIO:1" type="pt_bus" route="pt_bus_PSAY-BGIO:1" begin="131.0" end="3731.0" period="600" line="PSAY-BGIO:1" >
+        <param key="name" value="Pasay City–Baguio City via TPLEX (outbound)"/>
+        <param key="completeness" value="0.00"/>
+    </flow>
+    <flow id="pt_bus_PSAY-BGIO:2" type="pt_bus" route="pt_bus_PSAY-BGIO:2" begin="132.0" end="3732.0" period="600" line="PSAY-BGIO:2" >
+        <param key="name" value="Pasay City–Baguio City via Tarlac City (inbound)"/>
+        <param key="completeness" value="0.00"/>
+    </flow>
+    <flow id="pt_bus_PSAY-BGIO:3" type="pt_bus" route="pt_bus_PSAY-BGIO:3" begin="137.0" end="3737.0" period="600" line="PSAY-BGIO:3" >
+        <param key="name" value="Pasay City–Baguio City via Tarlac City (inbound)"/>
+        <param key="completeness" value="0.00"/>
+    </flow>
+    <flow id="pt_bus_BM:0" type="pt_bus" route="pt_bus_BM:0" begin="165.0" end="3765.0" period="600" line="BM:0" >
+        <param key="name" value="Bacoor (NoMo)–Makati CBD P2P (inbound)"/>
+        <param key="completeness" value="0.60"/>
+    </flow>
+    <flow id="pt_light_rail_3:1" type="pt_light_rail" route="pt_light_rail_3:1" begin="253.0" end="3853.0" period="240" line="3:1" >
+        <param key="name" value="MRT Line 3: Taft Avenue → North Avenue)"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+</routes>

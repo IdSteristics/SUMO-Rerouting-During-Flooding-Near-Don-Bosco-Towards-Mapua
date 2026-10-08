@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="mapua_makati.rou.xml"/>
+        <additional-files value="flooding.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+</configuration>

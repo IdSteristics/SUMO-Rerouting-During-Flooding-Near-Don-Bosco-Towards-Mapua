@@ -1,0 +1,5 @@
+<additional>
+    <!-- Semi-transparent flood water polygon visually rendered on top of Don Bosco street -->
+    <poly id="don_bosco_flood_zone" type="water" color="0,120,255,0" fill="true" layer="100"
+          shape="1435.81,2896.21 1450.00,2890.00 1440.00,2860.00 1425.00,2865.00"/>
+</additional>
